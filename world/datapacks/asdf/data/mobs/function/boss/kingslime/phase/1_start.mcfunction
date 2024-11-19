@@ -20,4 +20,5 @@ execute store result score hp_projectile_third boss run attribute @n[tag=boss_ma
 
 execute store result score landed boss run data get entity @n[tag=boss_main] OnGround
 
-tellraw @a {"text": "킹 슬라임이 깨어났습니다!", "color": "dark_purple"}
+title @a subtitle {"text": "킹 슬라임이 깨어났습니다", "bold": true, "color": "light_purple"}
+title @a title {"text": "BOSS AWAKEN", "bold": true, "color": "gold"}

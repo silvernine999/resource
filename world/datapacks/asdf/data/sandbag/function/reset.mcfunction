@@ -1,12 +1,12 @@
-data merge entity @e[tag=sandbag,limit=1] {Glowing:0b}
-tp @e[tag=sandbag] ~ 0 ~
-kill @e[tag=sandbag]
-execute positioned 0 57.5 8 run function sandbag:spawn
+data merge entity @n[tag=sandbag] {Glowing:0b}
+tp @n[tag=sandbag] ~ 0 ~
+kill @n[tag=sandbag]
+execute at @n[name=location_training_sandbag] run function sandbag:spawn
 
 scoreboard players set currentHp sandbag 10000
 scoreboard players set lastHp sandbag 10000
 
-playsound minecraft:entity.experience_orb.pickup
-particle minecraft:wax_on 0 58.5 8 .2 .5 .2 0 50
+execute at @n[tag=sandbag_reset] run playsound minecraft:entity.experience_orb.pickup block @s ~ ~ ~
+execute at @n[name=location_training_sandbag] run particle minecraft:wax_on ~ ~2 ~ .4 1 .4 0 100
 
-data remove entity @e[tag=sandbagreset,limit=1] interaction
+data remove entity @n[tag=sandbag_reset] interaction

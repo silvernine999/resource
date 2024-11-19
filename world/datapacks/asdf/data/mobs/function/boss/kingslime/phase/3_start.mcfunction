@@ -16,5 +16,10 @@ execute as @n[tag=boss_crown] run ride @s mount @n[tag=boss_main]
 
 scoreboard players reset nextPhaseHp boss
 
-tp @e[tag=boss_summons,nbt={Size:0}] 0 -200 0
-kill @e[tag=boss_summons,nbt={Size:0}]
+execute as @e[tag=boss_summons,nbt={Size:0}] run function mobs:boss/kingslime/killslime
+
+execute at @n[tag=boss_main] run particle cloud ~ ~ ~ 0 0 0 1 100
+execute at @n[tag=boss_main] run particle sneeze ~ ~ ~ 0 0 0 1 250
+
+title @a subtitle {"text": "킹 슬라임이 분열되었다!"}
+title @a title ""

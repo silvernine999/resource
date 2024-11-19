@@ -18,3 +18,4 @@ bossbar set boss_pattern max 50
 bossbar set boss_pattern value 0
 
 playsound entity.ender_dragon.growl hostile @a ~ ~ ~ 5 2
+function musics:boss/slime

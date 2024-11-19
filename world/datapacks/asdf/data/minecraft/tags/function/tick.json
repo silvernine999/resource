@@ -1,10 +1,11 @@
 {
   "values": [
+      "global:tick",
       "sandbag:tick",
+      "mobs:tick",
       "weapons:tick",
       "tests:tick",
-      "mobs:tick",
       "testdanata_1:tick",
-      "global:tick"
+      "gimmicks:tick"
   ]
 }
