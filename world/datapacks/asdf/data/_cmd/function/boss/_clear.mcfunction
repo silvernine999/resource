@@ -1,0 +1,1 @@
+function mobs:boss/clear
