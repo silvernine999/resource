@@ -1,0 +1,54 @@
+[
+  {
+    "function": "set_item",
+    "item": "book"
+  },
+  {
+    "function": "set_custom_data",
+    "tag": {
+      "weapon" : true,
+      "weaponid" : "magicswords",
+      "weapontype" : "magic",
+      "magic_damage" : 4
+    }
+  },
+  {
+    "function": "set_name",
+    "name": [
+      {
+        "text": "마도서 [마법의 검]",
+        "bold": true,
+        "italic": false
+      }
+    ]
+  },
+  {
+    "function": "set_lore",
+    "mode": "replace_all",
+    "lore": [
+      {
+        "text": "언커먼",
+        "italic": false,
+        "color": "yellow"
+      },
+      {
+        "text": " 4 마법 공격력",
+        "italic": false,
+        "color": "gray"
+      }
+    ]
+  },
+  {
+    "function": "set_components",
+    "components": {
+      "rarity": "uncommon",
+      "max_stack_size": 1
+    }
+  },
+  {
+    "function": "toggle_tooltips",
+    "toggles": {
+      
+    }
+  }
+]

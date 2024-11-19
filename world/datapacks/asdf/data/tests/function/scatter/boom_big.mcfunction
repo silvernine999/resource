@@ -1,0 +1,10 @@
+function tests:scatter/spawn_mid
+function tests:scatter/spawn_mid
+function tests:scatter/spawn_mid
+function tests:scatter/spawn_mid
+function tests:scatter/spawn_mid
+function tests:scatter/spawn_mid
+function tests:scatter/spawn_mid
+function tests:scatter/spawn_mid
+function tests:scatter/spawn_mid
+kill @s

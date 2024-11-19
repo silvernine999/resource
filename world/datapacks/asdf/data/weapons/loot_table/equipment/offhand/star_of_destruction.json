@@ -1,0 +1,19 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:nether_star",
+          "functions": [
+            {
+              "function": "reference",
+              "name": "weapons:equipment/offhand/star_of_destruction"
+            } 
+          ]
+        }
+      ]
+    }
+  ]
+}

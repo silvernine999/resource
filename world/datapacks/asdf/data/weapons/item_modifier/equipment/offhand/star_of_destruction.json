@@ -1,0 +1,50 @@
+[
+  {
+    "function": "set_item",
+    "item": "nether_star"
+  },
+  {
+    "function": "set_custom_data",
+    "tag": {
+      "range_damage" : 50,
+      "magic_damage" : 50
+    }
+  },
+  {
+    "function": "set_name",
+    "name": [
+      {
+        "text": "파멸의 별",
+        "bold": true,
+        "italic": false,
+        "color": "dark_red"
+      }
+    ]
+  },
+  {
+    "function": "set_lore",
+    "mode": "replace_all",
+    "lore": [
+      {
+        "text": " 모든 공격력 +50%",
+        "italic": false,
+        "color": "gray"
+      }
+    ]
+  },
+  {
+    "function": "set_components",
+    "components": {
+      "enchantments": {
+        "weapons:equipment/offhand/offhand_melee_damage": 50
+      }
+    }
+  },
+  {
+    "function": "toggle_tooltips",
+    "toggles": {
+      "attribute_modifiers" : false,
+      "enchantments": false
+    }
+  }
+]

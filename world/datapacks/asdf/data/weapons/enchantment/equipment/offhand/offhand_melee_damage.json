@@ -1,0 +1,31 @@
+{
+  "anvil_cost": 1000,
+  "description": "offhand_melee_damage",
+  "effects": {
+    "attributes": [
+      {
+        "attribute": "attack_damage",
+        "id": "offhand_melee_damage",
+        "amount": {
+          "type": "linear",
+          "base": 0.01,
+          "per_level_above_first": 0.01
+        },
+        "operation": "add_multiplied_base"
+      }
+    ]
+  },
+  "max_cost": {
+    "base": 0,
+    "per_level_above_first": 0
+  },
+  "max_level": 255,
+  "min_cost": {
+    "base": 0,
+    "per_level_above_first": 0
+  },
+  "primary_items": [],
+  "slots": ["offhand"],
+  "supported_items": [],
+  "weight": 1
+}

@@ -1,0 +1,32 @@
+execute rotated ~2 ~-.1 run function weapons:melee/greatkatana/projectile/spinslash/particle
+execute rotated ~4 ~-.2 run function weapons:melee/greatkatana/projectile/spinslash/particle
+execute rotated ~6 ~-.3 run function weapons:melee/greatkatana/projectile/spinslash/particle
+execute rotated ~8 ~-.4 run function weapons:melee/greatkatana/projectile/spinslash/particle
+execute rotated ~10 ~-.5 run function weapons:melee/greatkatana/projectile/spinslash/particle
+execute rotated ~12 ~-.6 run function weapons:melee/greatkatana/projectile/spinslash/particle
+execute rotated ~14 ~-.7 run function weapons:melee/greatkatana/projectile/spinslash/particle
+execute rotated ~16 ~-.8 run function weapons:melee/greatkatana/projectile/spinslash/particle
+execute rotated ~18 ~-.9 run function weapons:melee/greatkatana/projectile/spinslash/particle
+execute rotated ~20 ~-1 run function weapons:melee/greatkatana/projectile/spinslash/particle
+execute rotated ~22 ~-1.1 run function weapons:melee/greatkatana/projectile/spinslash/particle
+execute rotated ~24 ~-1.2 run function weapons:melee/greatkatana/projectile/spinslash/particle
+execute rotated ~26 ~-1.3 run function weapons:melee/greatkatana/projectile/spinslash/particle
+execute rotated ~28 ~-1.4 run function weapons:melee/greatkatana/projectile/spinslash/particle
+execute rotated ~30 ~-1.5 run function weapons:melee/greatkatana/projectile/spinslash/particle
+execute rotated ~32 ~-1.6 run function weapons:melee/greatkatana/projectile/spinslash/particle
+execute rotated ~34 ~-1.7 run function weapons:melee/greatkatana/projectile/spinslash/particle
+execute rotated ~36 ~-1.8 run function weapons:melee/greatkatana/projectile/spinslash/particle
+execute rotated ~38 ~-1.9 run function weapons:melee/greatkatana/projectile/spinslash/particle
+execute rotated ~40 ~-2 run function weapons:melee/greatkatana/projectile/spinslash/particle
+execute rotated ~42 ~-2.1 run function weapons:melee/greatkatana/projectile/spinslash/particle
+execute rotated ~44 ~-2.2 run function weapons:melee/greatkatana/projectile/spinslash/particle
+execute rotated ~46 ~-2.3 run function weapons:melee/greatkatana/projectile/spinslash/particle
+execute rotated ~48 ~-2.4 run function weapons:melee/greatkatana/projectile/spinslash/particle
+execute rotated ~50 ~-2.5 run function weapons:melee/greatkatana/projectile/spinslash/particle
+execute rotated ~52 ~-2.6 run function weapons:melee/greatkatana/projectile/spinslash/particle
+execute rotated ~54 ~-2.7 run function weapons:melee/greatkatana/projectile/spinslash/particle
+execute rotated ~56 ~-2.8 run function weapons:melee/greatkatana/projectile/spinslash/particle
+execute rotated ~58 ~-2.9 run function weapons:melee/greatkatana/projectile/spinslash/particle
+execute rotated ~60 ~-3 run function weapons:melee/greatkatana/projectile/spinslash/particle
+
+rotate @s ~60 ~-3

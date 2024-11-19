@@ -1,0 +1,1 @@
+$damage @s $(damage) arrow by @p[nbt={UUID:$(owner)}]

@@ -1,0 +1,77 @@
+{
+  "anvil_cost": 2,
+  "description": "bowowow",
+  "effects": {
+    "minecraft:post_attack": [
+      {
+        "effect": {
+          "type": "run_function",
+          "function": "tests:test"
+        },
+        "enchanted": "attacker",
+        "affected": "victim"
+      },
+      {
+        "effect": {
+          "type": "run_function",
+          "function": "tests:test"
+        },
+        "enchanted": "attacker",
+        "affected": "damaging_entity"
+      }
+    ],
+    "minecraft:projectile_count": [
+      {
+        "effect": {
+          "type": "minecraft:set",
+          "value": 2
+        }
+      }
+    ],
+    "minecraft:projectile_spread": [
+      {
+        "effect": {
+          "type": "minecraft:set",
+          "value": 15
+        }
+      }
+    ],
+    "tick": [
+      {
+        "effect": {
+          "type": "spawn_particles",
+          "particle": {
+            "type": "crit"
+          },
+          "horizontal_position": {
+            "type": "entity_position"
+          },
+          "vertical_position": {
+            "type": "entity_position"
+          },
+          "horizontal_velocity": {
+            "base": 0
+          },
+          "vertical_velocity": {
+            "base": 0
+          }
+        }
+      }
+    ],
+    "projectile_spawned": [
+
+    ]
+  },
+  "max_cost": {
+    "base": 30,
+    "per_level_above_first": 10
+  },
+  "max_level": 1,
+  "min_cost": {
+    "base": 10,
+    "per_level_above_first": 5
+  },
+  "slots": ["mainhand"],
+  "supported_items": "minecraft:bow",
+  "weight": 5
+}

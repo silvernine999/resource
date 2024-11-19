@@ -1,0 +1,53 @@
+[
+  {
+    "function": "set_item",
+    "item": "spyglass"
+  },
+  {
+    "function": "set_custom_data",
+    "tag": {
+      "weapon" : true,
+      "weaponid" : "sniper",
+      "weapontype" : "range",
+      "range_damage" : 20
+    }
+  },
+  {
+    "function": "set_name",
+    "name": [
+      {
+        "text": "저격소총",
+        "bold": true,
+        "italic": false
+      }
+    ]
+  },
+  {
+    "function": "set_lore",
+    "mode": "replace_all",
+    "lore": [
+      {
+        "text": "레어",
+        "italic": false,
+        "color": "aqua"
+      },
+      {
+        "text": " 20 원거리 공격력",
+        "italic": false,
+        "color": "gray"
+      }
+    ]
+  },
+  {
+    "function": "set_components",
+    "components": {
+      "rarity": "rare"
+    }
+  },
+  {
+    "function": "toggle_tooltips",
+    "toggles": {
+      
+    }
+  }
+]

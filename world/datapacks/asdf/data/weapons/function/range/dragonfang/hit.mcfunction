@@ -1,0 +1,1 @@
+execute if entity @s[tag=customarrowcrit] run function weapons:range/dragonfang/explosion

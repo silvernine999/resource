@@ -1,0 +1,1 @@
+$tp @n[nbt={UUID:$(display)}] @s

@@ -1,0 +1,1 @@
+$execute rotated ~$(RotateX) ~$(RotateY) run particle minecraft:ominous_spawning ^ ^ ^3 0 0 0 0 1

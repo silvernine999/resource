@@ -1,0 +1,61 @@
+{
+  "anvil_cost": 1000,
+  "description": "custom_arrow_damage",
+  "effects": {
+    "post_attack": [
+      {
+        "effect": {
+          "type": "run_function",
+          "function": "weapons:range/arrow_hit_victim"
+        },
+        "enchanted": "attacker",
+        "affected": "victim"
+      },
+      {
+        "effect": {
+          "type": "run_function",
+          "function": "weapons:range/arrow_hit"
+        },
+        "enchanted": "attacker",
+        "affected": "damaging_entity"
+      }
+    ],
+    "hit_block": [
+      {
+        "effect": {
+          "type": "run_function",
+          "function": "weapons:range/arrow_block"
+        }
+      }
+    ],
+    "projectile_spawned": [
+      {
+        "effect": {
+          "type": "run_function",
+          "function": "weapons:range/arrow_spawned"
+        }
+      }
+    ],
+    "ammo_use": [
+      {
+        "effect": {
+          "type": "set",
+          "value": 0
+        }
+      }
+    ]
+  },
+  "max_cost": {
+    "base": 0,
+    "per_level_above_first": 0
+  },
+  "max_level": 1,
+  "min_cost": {
+    "base": 0,
+    "per_level_above_first": 0
+  },
+  "primary_items": [],
+  "slots": ["mainhand"],
+  "supported_items": ["bow", "crossbow"],
+  "weight": 1
+}

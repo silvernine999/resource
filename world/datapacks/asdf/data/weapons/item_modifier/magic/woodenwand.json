@@ -1,0 +1,98 @@
+[
+  {
+    "function": "set_item",
+    "item": "stick"
+  },
+  {
+    "function": "set_custom_data",
+    "tag": {
+      "weapon" : true,
+      "weaponid" : "woodenwand",
+      "weapontype" : "magic",
+      "magic_damage" : 5
+    }
+  },
+  {
+    "function": "set_name",
+    "name": [
+      {
+        "text": "나무 지팡이",
+        "bold": true,
+        "italic": false
+      }
+    ]
+  },
+  {
+    "function": "set_lore",
+    "mode": "replace_all",
+    "lore": [
+      {
+        "text": "커먼",
+        "italic": false,
+        "color": "white"
+      },
+      {
+        "text": " 2 근접 공격력",
+        "italic": false,
+        "color": "gray"
+      },
+      {
+        "text": " 5 마법 공격력",
+        "italic": false,
+        "color": "gray"
+      },
+      {
+        "text": " 2 공격 속도",
+        "italic": false,
+        "color": "gray"
+      },
+      {
+        "text": "스킬 : [마나 화살]",
+        "italic": false,
+        "bold": true,
+        "color": "green"
+      },
+      {
+        "text": " 데미지 배율 : x1",
+        "italic": false,
+        "color": "gray"
+      },
+      {
+        "text": " 쿨타임 : 1초",
+        "italic": false,
+        "color": "gray"
+      }
+    ]
+  },
+  {
+    "function": "set_components",
+    "components": {
+      "rarity": "common",
+      "attribute_modifiers": {
+        "modifiers": [
+          {
+            "type": "attack_damage",
+            "id": "attack_damage",
+            "amount": 2,
+            "operation": "add_value",
+            "slot": "mainhand"
+          },
+          {
+            "type": "attack_speed",
+            "id": "attack_speed",
+            "amount": -2,
+            "operation": "add_value",
+            "slot": "mainhand"
+          }
+        ]
+      },
+      "max_stack_size": 1
+    }
+  },
+  {
+    "function": "toggle_tooltips",
+    "toggles": {
+      "attribute_modifiers": false
+    }
+  }
+]

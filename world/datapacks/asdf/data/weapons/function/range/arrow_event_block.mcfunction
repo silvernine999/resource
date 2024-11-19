@@ -1,0 +1,1 @@
+$function weapons:range/$(weaponid)/block

@@ -1,0 +1,77 @@
+[
+  {
+    "function": "set_item",
+    "item": "bow"
+  },
+  {
+    "function": "set_custom_data",
+    "tag": {
+      "weapon" : true,
+      "weaponid" : "woodenbow",
+      "weapontype" : "range",
+      "range_damage" : 4,
+      "range_damage_crit" : 10
+    }
+  },
+  {
+    "function": "set_name",
+    "name": [
+      {
+        "text": "우드 보우",
+        "bold": true,
+        "italic": false,
+        "color": "white"
+      }
+    ]
+  },
+  {
+    "function": "set_lore",
+    "mode": "replace_all",
+    "lore": [
+      {
+        "text": "커먼",
+        "italic": false,
+        "color": "white"
+      },
+      {
+        "text": " 4 / 10 원거리 공격력",
+        "italic": false,
+        "color": "gray"
+      },
+      {
+        "text": "스킬 : [관통 사격]",
+        "italic": false,
+        "bold": true,
+        "color": "green"
+      },
+      {
+        "text": " 데미지 배율 : x2",
+        "italic": false,
+        "color": "gray"
+      },
+      {
+        "text": " 쿨타임 : 5초",
+        "italic": false,
+        "color": "gray"
+      }
+    ]
+  },
+  {
+    "function": "set_components",
+    "components": {
+      "rarity": "common",
+      "unbreakable": {},
+      "enchantments": {
+        "weapons:range/custom_arrow_damage": 1
+      },
+      "enchantment_glint_override": false
+    }
+  },
+  {
+    "function": "toggle_tooltips",
+    "toggles": {
+      "unbreakable": false,
+      "enchantments": false
+    }
+  }
+]

@@ -1,0 +1,10 @@
+[
+  {
+    "function": "set_name",
+    "name": "Sword of the Universe"
+   },
+  {
+    "function": "set_item",
+    "item": "netherite_sword"
+   }
+]

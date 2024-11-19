@@ -1,0 +1,93 @@
+[
+  {
+    "function": "set_item",
+    "item": "wooden_sword"
+  },
+  {
+    "function": "set_custom_data",
+    "tag": {
+      "weapon" : true,
+      "weaponid" : "woodensword",
+      "weapontype" : "melee"
+    }
+  },
+  {
+    "function": "set_name",
+    "name": [
+      {
+        "text": "목검",
+        "bold": true,
+        "italic": false
+      }
+    ]
+  },
+  {
+    "function": "set_lore",
+    "mode": "replace_all",
+    "lore": [
+      {
+        "text": "커먼",
+        "italic": false,
+        "color": "white"
+      },
+      {
+        "text": " 5 근접 공격력",
+        "italic": false,
+        "color": "gray"
+      },
+      {
+        "text": " 1.6 공격 속도",
+        "italic": false,
+        "color": "gray"
+      },
+      {
+        "text": "스킬 : [강격]",
+        "italic": false,
+        "bold": true,
+        "color": "green"
+      },
+      {
+        "text": " 데미지 배율 : x3",
+        "italic": false,
+        "color": "gray"
+      },
+      {
+        "text": " 쿨타임 : 6초",
+        "italic": false,
+        "color": "gray"
+      }
+    ]
+  },
+  {
+    "function": "set_components",
+    "components": {
+      "rarity": "common",
+      "unbreakable": {},
+      "attribute_modifiers": {
+        "modifiers": [
+          {
+            "type": "attack_damage",
+            "id": "attack_damage",
+            "amount": 5,
+            "operation": "add_value",
+            "slot": "mainhand"
+          },
+          {
+            "type": "attack_speed",
+            "id": "attack_speed",
+            "amount": -2.4,
+            "operation": "add_value",
+            "slot": "mainhand"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "function": "toggle_tooltips",
+    "toggles": {
+      "unbreakable": false,
+      "attribute_modifiers": false
+    }
+  }
+]

@@ -1,0 +1,1 @@
+$summon arrow ^ ^ ^ {Motion: [$(x), $(y), $(z)]}

@@ -1,0 +1,62 @@
+[
+  {
+    "function": "set_item",
+    "item": "bow"
+  },
+  {
+    "function": "set_custom_data",
+    "tag": {
+      "weapon" : true,
+      "weaponid" : "dragonfang",
+      "weapontype" : "range",
+      "range_damage" : 6,
+      "range_damage_crit" : 15
+    }
+  },
+  {
+    "function": "set_name",
+    "name": [
+      {
+        "text": "용의 이빨",
+        "bold": true,
+        "italic": false
+      }
+    ]
+  },
+  {
+    "function": "set_lore",
+    "mode": "replace_all",
+    "lore": [
+      {
+        "text": "에픽",
+        "italic": false,
+        "color": "light_purple"
+      },
+      {
+        "text": " 6 / 15 원거리 공격력",
+        "italic": false,
+        "color": "gray"
+      }
+    ]
+  },
+  {
+    "function": "set_components",
+    "components": {
+      "rarity": "epic",
+      "unbreakable": {},
+      "enchantments": {
+        "weapons:range/custom_arrow_damage": 1,
+        "weapons:range/multishot": 4,
+        "flame": 1
+      },
+      "enchantment_glint_override": false
+    }
+  },
+  {
+    "function": "toggle_tooltips",
+    "toggles": {
+      "unbreakable": false,
+      "enchantments": false
+    }
+  }
+]

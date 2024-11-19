@@ -1,0 +1,2 @@
+kill @e[tag=backweapon]
+summon minecraft:item_display ~ ~ ~ {Tags:["backweapon"], item_display:"thirdperson_righthand", teleport_duration:1, transformation:{left_rotation:[-2f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[.3f,.8f,0f],scale:[1f,1f,1f]}}
