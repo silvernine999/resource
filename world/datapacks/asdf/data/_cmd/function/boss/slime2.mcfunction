@@ -1,0 +1,1 @@
+function mobs:boss/slime_ver2/summon
