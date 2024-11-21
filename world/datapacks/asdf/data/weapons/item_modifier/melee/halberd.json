@@ -1,0 +1,105 @@
+[
+  {
+    "function": "set_item",
+    "item": "iron_axe"
+  },
+  {
+    "function": "set_custom_data",
+    "tag": {
+      "weapon" : true,
+      "weaponid" : "halberd",
+      "weapontype" : "melee"
+    }
+  },
+  {
+    "function": "set_name",
+    "name": [
+      {
+        "text": "할버드",
+        "bold": true,
+        "italic": false
+      }
+    ]
+  },
+  {
+    "function": "set_lore",
+    "mode": "replace_all",
+    "lore": [
+      {
+        "text": "언커먼",
+        "italic": false,
+        "color": "yellow"
+      },
+      {
+        "text": " 12 근접 공격력",
+        "italic": false,
+        "color": "gray"
+      },
+      {
+        "text": " 1 공격 속도",
+        "italic": false,
+        "color": "gray"
+      },
+      {        
+        "text": " 8 공격 범위",
+        "italic": false,
+        "color": "gray"
+      },
+      {
+        "text": "스킬 : [찌르고 회전베기]",
+        "italic": false,
+        "bold": true,
+        "color": "green"
+      },
+      {
+        "text": " 데미지 배율 : x3 / x2",
+        "italic": false,
+        "color": "gray"
+      },
+      {
+        "text": " 쿨타임 : 8초",
+        "italic": false,
+        "color": "gray"
+      }
+    ]
+  },
+  {
+    "function": "set_components",
+    "components": {
+      "rarity": "uncommon",
+      "unbreakable": {},
+      "attribute_modifiers": {
+        "modifiers": [
+          {
+            "type": "attack_damage",
+            "id": "attack_damage",
+            "amount": 12,
+            "operation": "add_value",
+            "slot": "mainhand"
+          },
+          {
+            "type": "attack_speed",
+            "id": "attack_speed",
+            "amount": -3,
+            "operation": "add_value",
+            "slot": "mainhand"
+          },
+          {
+            "type": "entity_interaction_range",
+            "id": "entity_interaction_range",
+            "amount": 3,
+            "operation": "add_value",
+            "slot": "mainhand"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "function": "toggle_tooltips",
+    "toggles": {
+      "unbreakable": false,
+      "attribute_modifiers": false
+    }
+  }
+]

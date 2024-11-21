@@ -15,5 +15,6 @@ data modify entity @n[tag=boss_main] Motion[1] set value 1d
 execute store result bossbar boss_main max run attribute @n[tag=boss_main] max_health get 30
 execute store result score nextPhaseHp boss run attribute @n[tag=boss_main] max_health get 20
 
+title @a times 10t 40t 20t
 title @a subtitle {"text": "킹 슬라임 2세가 깨어났습니다", "bold": true, "color": "light_purple"}
 title @a title {"text": "BOSS AWAKEN", "bold": true, "color": "gold"}

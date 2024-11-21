@@ -12,6 +12,7 @@ execute if score pattern_cool boss matches 0 if score pattern_cycle boss matches
 
 execute store result bossbar boss_main value run scoreboard players get hp boss
 
+execute if entity @e[tag=boss_main,nbt={Size:0}] run title @a times 10t 60t 30t
 execute if entity @e[tag=boss_main,nbt={Size:0}] run title @a subtitle {"text": "킹 슬라임 2세가 쓰러졌습니다", "bold": true, "color": "light_purple"}
 execute if entity @e[tag=boss_main,nbt={Size:0}] run title @a title {"text": "BOSS DEFEATED", "bold": true, "color": "gold"}
 execute if entity @e[tag=boss_main,nbt={Size:0}] run function mobs:boss/rewards/item_spray

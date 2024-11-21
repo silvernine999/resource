@@ -9,8 +9,8 @@
       "weapon" : true,
       "weaponid" : "woodenbow",
       "weapontype" : "range",
-      "range_damage" : 4,
-      "range_damage_crit" : 10
+      "range_damage" : 3,
+      "range_damage_crit" : 7
     }
   },
   {
@@ -34,7 +34,7 @@
         "color": "white"
       },
       {
-        "text": " 4 / 10 원거리 공격력",
+        "text": " 3 / 7 원거리 공격력",
         "italic": false,
         "color": "gray"
       },
@@ -45,7 +45,7 @@
         "color": "green"
       },
       {
-        "text": " 데미지 배율 : x2",
+        "text": " 데미지 배율 : x4",
         "italic": false,
         "color": "gray"
       },

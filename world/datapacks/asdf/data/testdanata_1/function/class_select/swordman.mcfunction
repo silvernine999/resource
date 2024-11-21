@@ -6,5 +6,6 @@ item replace entity @s armor.head with chainmail_helmet[unbreakable={}]
 item replace entity @s armor.chest with chainmail_chestplate[unbreakable={}]
 item replace entity @s armor.legs with chainmail_leggings[unbreakable={}]
 item replace entity @s armor.feet with chainmail_boots[unbreakable={}]
+give @s golden_apple 64
 
 data remove entity @n[tag=select_swordman] interaction

@@ -8,5 +8,5 @@ bossbar set sandbag name [{"bold":true,"color":"gold","text":"샌드백 HP : "},
 execute store result score currentHp sandbag run data get entity @n[tag=sandbag] Health 10
 execute unless score currentHp sandbag = lastHp sandbag run function sandbag:damage
 
-execute at @e[tag=sandbag] run bossbar set sandbag players @a[distance=..20]
+execute at @e[name=location_training_sandbag] run bossbar set sandbag players @a[distance=..20]
 execute as @e[tag=sandbag] at @s store result entity @s Glowing byte 1 if entity @p[distance=..20]

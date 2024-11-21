@@ -8,4 +8,6 @@ bossbar set boss_main visible false
 bossbar add boss_pattern ""
 bossbar set boss_pattern visible false
 
+execute unless data storage config:boss slime run data modify storage config:boss slime.hp set value 100f
+
 tellraw @a "-보스 로드됨"

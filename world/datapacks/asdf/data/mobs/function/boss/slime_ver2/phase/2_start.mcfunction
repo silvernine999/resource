@@ -27,5 +27,6 @@ execute at @n[tag=boss_main] run particle sneeze ~ ~ ~ 0 0 0 1 250
 
 execute store result bossbar boss_split_big max run attribute @n[tag=boss_split_big] max_health get 10
 
+title @a times 5t 10t 5t
 title @a subtitle {"text": "킹 슬라임 2세가 분열되었다!"}
 title @a title ""
